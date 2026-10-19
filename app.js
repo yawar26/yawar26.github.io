@@ -118,6 +118,23 @@ function ensurePhysicalAISkill(){
   grid.appendChild(card);
 }
 
+function configureHighlights(){
+  const host=$('.highlights');
+  if(!host)return;
+  const metrics=$$('.metric',host);
+  const teaching=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='14+ yrs');
+  const industry=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='2+ yrs');
+  const funding=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='$130K');
+  if(!teaching||!industry||!funding)return;
+  const fundingLabel=funding.querySelector('span');
+  if(fundingLabel){
+    fundingLabel.dataset.en='research funding completed projects';
+    fundingLabel.dataset.ko='완료된 연구과제 연구비';
+    fundingLabel.textContent=fundingLabel.dataset.en;
+  }
+  host.replaceChildren(teaching,industry,funding);
+}
+
 function configureVisitCounter(){
   const footer=$('footer .footer');
   if(!footer||$('#visit-counter'))return;
@@ -241,6 +258,7 @@ removeTrustworthyAICopy();
 configurePortrait();
 loadHeroStyles();
 ensurePhysicalAISkill();
+configureHighlights();
 configureVisitCounter();
 configureContactForm();
 
