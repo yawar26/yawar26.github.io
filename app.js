@@ -182,7 +182,7 @@ function configureContactForm(){
     socials=document.createElement('div');
     socials.className='socials';
   }
-  socials.innerHTML='<a href="mailto:reh.yawar2@gmail.com" data-en="Email" data-ko="이메일">Email</a><a href="https://www.linkedin.com/in/yawar-rehman-820118b/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/yawar26" target="_blank" rel="noreferrer">GitHub</a><a href="https://scholar.google.com/scholar?q=%22Yawar+Rehman%22+computer+vision" target="_blank" rel="noreferrer">Google Scholar</a>';
+  socials.innerHTML='<a href="mailto:reh.yawar2@gmail.com" data-en="Email" data-ko="이메일">Email</a><a href="https://www.linkedin.com/in/yawar-rehman-820118b/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/yawar26" target="_blank" rel="noreferrer">GitHub</a><a href="https://scholar.google.com/citations?user=VclpjuIAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>';
 
   const form=document.createElement('form');
   form.id='contact-form';
