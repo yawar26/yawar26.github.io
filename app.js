@@ -124,12 +124,12 @@ function configureHighlights(){
   const metrics=$$('.metric',host);
   const teaching=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='14+ yrs');
   const industry=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='2+ yrs');
-  const funding=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='$130K');
+  const funding=metrics.find(item=>item.querySelector('strong')?.textContent.trim()==='$170K');
   if(!teaching||!industry||!funding)return;
   const fundingLabel=funding.querySelector('span');
   if(fundingLabel){
-    fundingLabel.dataset.en='research funding completed projects';
-    fundingLabel.dataset.ko='완료된 연구과제 연구비';
+    fundingLabel.dataset.en='research funding completed projects as PI and Co-PI';
+    fundingLabel.dataset.ko='연구책임자 및 공동연구책임자로 수행한 완료 연구과제 연구비';
     fundingLabel.textContent=fundingLabel.dataset.en;
   }
   host.replaceChildren(teaching,industry,funding);
