@@ -26,8 +26,8 @@ window.SITE_DATA = {
       summary: { en: "Research, teaching, graduate supervision, and academic management in electronic engineering, deep learning, and computer vision.", ko: "전자공학, 딥러닝, 컴퓨터 비전 분야에서 연구, 교육, 대학원생 지도 및 학사 행정을 수행했습니다." },
       bullets: [
         { en: "Completed research projects totaling approximately USD 170,000 in funding as PI and Co-PI.", ko: "연구책임자 및 공동연구책임자로 수행한 완료 연구과제의 총 연구비는 약 미화 17만 달러입니다." },
-        { en: "Principal Investigator: Object detection with occlusion handling using CNN (HEC/SRGP/2019), completed in 2021.", ko: "연구책임자: CNN 기반 가림 현상 대응 객체 탐지(HEC/SRGP/2019), 2021년 완료." },
-        { en: "Principal Investigator: 3D scanning of industrial objects for quality assurance and rapid prototyping (HEC/NRPU/2018), completed in 2022.", ko: "연구책임자: 품질보증 및 신속 시제품 제작을 위한 산업 객체 3D 스캐닝(HEC/NRPU/2018), 2022년 완료." },
+        { en: "Principal Investigator: Object detection with occlusion handling using CNN (HEC/SRGP/2019), completed in 2022.", ko: "연구책임자: CNN 기반 가림 현상 대응 객체 탐지(HEC/SRGP/2019), 2022년 완료." },
+        { en: "Principal Investigator: 3D scanning of industrial objects for quality assurance and rapid prototyping (HEC/NRPU/2018), completed in 2024.", ko: "연구책임자: 품질보증 및 신속 시제품 제작을 위한 산업 객체 3D 스캐닝(HEC/NRPU/2018), 2024년 완료." },
         { en: "Co Principal Investigator: digital surveying and modeling of buildings and surroundings using handheld laser scanners (HEC/TDF/2018), completed in 2022.", ko: "공동연구책임자: 휴대형 레이저 스캐너를 이용한 건물 및 주변환경 디지털 측량·모델링(HEC/TDF/2018), 2022년 완료." },
         { en: "Taught Programming Languages, Digital Image Processing, Advanced Neural Networks & Fuzzy Logic, Deep Learning, and intelligent control courses.", ko: "프로그래밍 언어, 디지털 영상처리, 고급 신경망 및 퍼지 논리, 딥러닝, 지능형 제어 관련 과목을 강의했습니다." },
         { en: "Supervised two PhD scholars in deep neural networks and computer vision; served in Quality Enhancement Cell, Board of Studies, and Industrial Advisory Board roles.", ko: "심층신경망 및 컴퓨터 비전 분야 박사과정 2명을 지도했으며, 교육품질관리, 학과 교육위원회, 산업자문위원회 관련 역할을 수행했습니다." }
