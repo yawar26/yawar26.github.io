@@ -21,7 +21,7 @@ function configureResearchIdentity(){
   const footerFocus=$('footer [data-en][data-ko]');
   if(footerFocus)footerFocus.remove();
   const description=$('meta[name="description"]');
-  if(description)description.content='Yawar Rehman, PhD — Visiting Research Professor at Kyungpook National University. Video understanding, Physical AI, temporal action localization, computer vision, and edge AI deployment.';
+  if(description)description.content='Yawar Rehman, PhD — Research Professor at Kyungpook National University. Video understanding, Physical AI, temporal action localization, computer vision, and edge AI deployment.';
   const ogDescription=$('meta[property="og:description"]');
   if(ogDescription)ogDescription.content='Video Understanding · Physical AI · Computer Vision';
 }
