@@ -16,3 +16,13 @@
 .contact-details a{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}
 .contact-details a:hover{color:var(--text)}
 @media (max-width:620px){.contact-detail{grid-template-columns:1fr;gap:.2rem}}
+
+
+/* Research thumbnails use the approved illustrations in place of decorative CSS shapes. */
+.card .thumb.research-thumb{height:clamp(150px,17vw,210px);background:#08101f;overflow:hidden}
+.research-image-link{display:block;width:100%;height:100%;cursor:zoom-in}
+.research-image-link:focus-visible{outline:2px solid var(--cyan);outline-offset:-3px}
+.research-image{display:block;width:100%;height:100%;object-fit:contain;object-position:center;transition:transform .22s ease}
+.research-image-link:hover .research-image{transform:scale(1.025)}
+.research-thumb .num{pointer-events:none}
+@media(max-width:620px){.card .thumb.research-thumb{height:clamp(145px,45vw,200px)}}
