@@ -25,7 +25,7 @@ window.SITE_DATA = {
       org: { en: "NED University of Engineering & Technology · Full time · Karachi, Pakistan", ko: "NED 공과대학교 · 정규직 · 카라치, 파키스탄" },
       summary: { en: "Research, teaching, graduate supervision, and academic management in electronic engineering, deep learning, and computer vision.", ko: "전자공학, 딥러닝, 컴퓨터 비전 분야에서 연구, 교육, 대학원생 지도 및 학사 행정을 수행했습니다." },
       bullets: [
-        { en: "Secured approximately USD 130,000 in research funding across HEC supported projects.", ko: "HEC 지원 연구과제를 통해 약 미화 13만 달러의 연구비를 확보했습니다." },
+        { en: "Completed research projects totaling approximately USD 170,000 in funding as PI and Co-PI.", ko: "연구책임자 및 공동연구책임자로 수행한 완료 연구과제의 총 연구비는 약 미화 17만 달러입니다." },
         { en: "Principal Investigator: Object detection with occlusion handling using CNN (HEC/SRGP/2019), completed in 2021.", ko: "연구책임자: CNN 기반 가림 현상 대응 객체 탐지(HEC/SRGP/2019), 2021년 완료." },
         { en: "Principal Investigator: 3D scanning of industrial objects for quality assurance and rapid prototyping (HEC/NRPU/2018), completed in 2022.", ko: "연구책임자: 품질보증 및 신속 시제품 제작을 위한 산업 객체 3D 스캐닝(HEC/NRPU/2018), 2022년 완료." },
         { en: "Co Principal Investigator: digital surveying and modeling of buildings and surroundings using handheld laser scanners (HEC/TDF/2018), completed in 2022.", ko: "공동연구책임자: 휴대형 레이저 스캐너를 이용한 건물 및 주변환경 디지털 측량·모델링(HEC/TDF/2018), 2022년 완료." },
