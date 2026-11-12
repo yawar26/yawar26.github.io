@@ -26,3 +26,20 @@
 .research-image-link:hover .research-image{transform:scale(1.025)}
 .research-thumb .num{pointer-events:none}
 @media(max-width:620px){.card .thumb.research-thumb{height:clamp(145px,45vw,200px)}}
+
+
+/* Three equally prominent highlights: experience, funding, and PhD supervision. */
+.highlights{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (min-width:621px) and (max-width:900px){
+  .highlights{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .highlights .metric:last-child{grid-column:1/-1;max-width:calc(50% - .55rem);width:100%;justify-self:center}
+}
+@media (max-width:620px){
+  .highlights{grid-template-columns:1fr}
+  .highlights .metric:last-child{grid-column:auto;max-width:none;width:auto;justify-self:stretch}
+}
+
+/* PhD thesis rows reuse publication styling but remain distinct above Selected Papers. */
+.thesis-list .thesis-entry{align-items:center}
+.thesis-list .thesis-entry .year{font-weight:700}
+.thesis-list .thesis-entry a{white-space:nowrap}
