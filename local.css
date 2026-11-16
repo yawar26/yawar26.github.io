@@ -43,3 +43,10 @@
 .thesis-list .thesis-entry{align-items:center}
 .thesis-list .thesis-entry .year{font-weight:700}
 .thesis-list .thesis-entry a{white-space:nowrap}
+
+
+/* STAR project card: first in Projects; four original cards preserved. */
+.star-project-card .thumb .num{min-width:2.2rem;text-align:center}
+.star-card-actions{margin:1rem 0 0!important}
+.star-pdf-link{display:inline-flex;align-items:center;padding:.57rem .85rem;border:1px solid var(--cyan);border-radius:999px;color:var(--cyan);font:600 .73rem var(--mono);text-decoration:none}
+.star-pdf-link:hover,.star-pdf-link:focus-visible{background:var(--cyan);color:#071110}
