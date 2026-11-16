@@ -53,3 +53,9 @@
 .star-card-actions{margin:.7rem 0 0!important}
 .star-pdf-link{display:inline-flex;align-items:center;color:var(--cyan);font:600 .71rem var(--mono);text-decoration:none;text-underline-offset:4px;transition:color .2s}
 .star-pdf-link:hover,.star-pdf-link:focus-visible{color:var(--text);text-decoration:underline}
+
+/* Publication metadata for STAR only, maintaining the existing project-card layout. */
+.star-project-card h3{font-size:1.06rem}
+.star-publication-meta{display:grid;gap:.25rem;margin:0 0 .85rem}
+.star-project-card .star-publication-meta p{margin:0;font-size:.78rem;line-height:1.55}
+.star-project-card .star-publication-meta .star-copyright{margin-top:.32rem;font-size:.69rem;color:var(--dim)}
