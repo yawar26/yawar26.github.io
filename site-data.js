@@ -8,7 +8,7 @@ window.SITE_DATA = {
       bullets: []
     },
     {
-      title: { en: "Principal Researcher", ko: "수석연구원" },
+      title: { en: "Principal Research - AI Team Lead", ko: "수석연구원 · AI 팀장" },
       period: { en: "Aug 2023 — Nov 2025", ko: "2023년 8월 — 2025년 11월" },
       org: { en: "OnDAI Inc. · Full time · Seoul, South Korea · On site", ko: "OnDAI Inc. · 정규직 · 서울, 대한민국 · 현장근무" },
       summary: { en: "Applied computer vision R&D for insurance, mobility, airport security, and privacy preserving video systems.", ko: "보험, 모빌리티, 공항 보안, 개인정보 보호형 영상 시스템을 위한 컴퓨터 비전 연구개발을 수행했습니다." },
