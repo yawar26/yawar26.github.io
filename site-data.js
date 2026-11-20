@@ -13,7 +13,7 @@ window.SITE_DATA = {
       org: { en: "OnDAI Inc. · Full time · Seoul, South Korea · On site", ko: "OnDAI Inc. · 정규직 · 서울, 대한민국 · 현장근무" },
       summary: { en: "Applied computer vision R&D for insurance, mobility, airport security, and privacy preserving video systems.", ko: "보험, 모빌리티, 공항 보안, 개인정보 보호형 영상 시스템을 위한 컴퓨터 비전 연구개발을 수행했습니다." },
       bullets: [
-        { en: "DB Insurance: Led and contributed to the design and development of accident detection and classification, data handling, and annotation pipelines using black box video for car accident fault ratio prediction. The project cost was approximately USD 750,000.", ko: "DB손해보험: 자동차 사고 과실비율 예측을 위해 블랙박스 영상을 활용한 사고 탐지 및 분류, 데이터 처리, 주석 작업 파이프라인의 설계 및 개발을 주도하면서 직접 기여했습니다. 프로젝트 비용은 약 미화 75만 달러였습니다." },
+        { en: "DB Insurance: Led the design and development of AI based accident detection and classification systems, including video data processing and annotation pipelines for car accident fault ratio prediction. Served as the technical lead for this major industry project, valued at approximately USD 750,000.", ko: "DB손해보험: 자동차 사고 과실비율 예측을 위해 AI 기반 사고 탐지 및 분류 시스템과 영상 데이터 처리 및 어노테이션 파이프라인의 설계 및 개발을 주도했습니다. 약 미화 75만 달러 규모의 주요 산업 프로젝트에서 기술 책임자로 활동했습니다." },
         { en: "AI dashcam: contributed to the design and development of an edge AI dashcam solution.", ko: "AI 대시캠: 엣지 AI 기반 대시캠 솔루션 설계 및 개발에 참여했습니다." },
         { en: "Incheon International Airport: contributed to small flying object detection for drone intrusion monitoring.", ko: "인천국제공항: 드론 침입 모니터링을 위한 소형 비행체 탐지 기술 개발에 참여했습니다." },
         { en: "DB user data: contributed to a video anonymization system for protecting human and vehicle identities.", ko: "DB 사용자 데이터: 사람과 차량의 신원을 보호하기 위한 영상 익명화 시스템 개발에 참여했습니다." }
